@@ -14,17 +14,55 @@ img{
 div{
     display: flex;
     flex-direction: row;
-    padding: 35px;
+    padding: 0px;
+    border: 1px solid black;
 }
 
 .form{
     display: flex;
     flex-direction: column;
     margin: 20px;
+    align-self: center;
 }
 
 .form p {
     font-size: 25px;
     font-weight: bold;
 }
+.survey{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    padding-left: 0;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    gap: 50px;
+}
 
+
+.questions{
+    display: flex;
+    flex-direction: row;
+    padding-left: 0px;
+    gap: 30px;
+}
+
+.questions>div{
+    display: flex;
+    flex-direction: column;
+    padding: 0px;
+    gap: 20px;
+}
+
+.questions>div>div {
+    display: flex;
+    flex-direction: column;
+    padding: 0;
+}
+
+input{
+    border: 1px solid black;
+}
